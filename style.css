@@ -1,0 +1,44 @@
+<style>
+        body {
+            font-family: New Times Roman, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f5f0ff; /* Lilac background color */
+        }
+        h1 {
+            font-size: 26px;
+            color: #44ccac; /* Seafoam green text color */
+        }
+        h2 {
+            font-size: 21px;
+            color: #6060dd; /* Blue-magenta text color */
+        }
+        p {
+            font-size: 16px; 
+            font-weight: 600;
+            color: #800080; /* Purple link color */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #800080; /* Purple border */
+            padding: 8px;
+            text-align: left;
+        }
+        input[type="submit"] {
+            background-color: #800080; /* Purple submit button */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #4b0082; /* Darker purple on hover */
+        }
+    </style>
